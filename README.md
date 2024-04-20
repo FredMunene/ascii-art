@@ -7,10 +7,10 @@ The program receives a string as an argument and outputting the string in a grap
 
 `go run ."Hello" | cat -e`
 
-# Rewuirements for the Program
+# Requirements for the Program
 
-+ The program handles an input with numbers, letters, spaces, special characters and \n .
-+ The project is written in Go
++ The program handles an input with numbers, letters, spaces, special characters and '\n' .
++ The program is written in Go.
 + The code respects the [good practices.](https://learn.zone01kisumu.ke/git/root/public/src/branch/master/subjects/good-practices/README.md)
 + There are test files for [unit testing](https://go.dev/doc/tutorial/add-a-test).
 + [Use Standard Go](https://golang.org/pkg/) packages.
@@ -20,8 +20,8 @@ The program receives a string as an argument and outputting the string in a grap
     * [thinkertoy](https://learn.zone01kisumu.ke/git/root/public/src/branch/master/subjects/ascii-art/thinkertoy.txt)
 
 
-###Banner Format
+## Banner Format
 ================
 
 + Each character has a height of 8 lines.
-+ Characters are seperated by a new line \n .
++ Characters are seperated by a new line '\n'.
