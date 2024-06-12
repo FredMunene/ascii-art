@@ -43,7 +43,7 @@ func main() {
 		re := regexp.MustCompile(regexp.QuoteMeta(lettersToColor))
 
 		// Find all matches
-		words = functions.ReadInput(words) + "\n"
+		words = functions.ReadInput(words) // + "\n"
 		// fmt.Println(words)
 		matches := re.FindAllStringSubmatchIndex(words, -1)
 
