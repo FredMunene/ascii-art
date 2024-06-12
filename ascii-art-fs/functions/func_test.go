@@ -66,7 +66,6 @@ func TestReadInput(t *testing.T) {
 		}
 	}
 }
-/home/fgitonga/Desktop/ascii-art-fs/functions/func_test.gocd
 //  func TestPrintAsciiArt(t *testing.T){
 
 //  }
