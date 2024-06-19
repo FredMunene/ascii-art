@@ -1,0 +1,40 @@
+&{
+    Status: "200 OK"
+    StatusCode: 200
+    Proto: "HTTP/2.0"
+    ProtoMajor: 2
+    ProtoMinor: 0
+    Header: map[
+        Alt-Svc: [h3=":443"; ma=2592000,h3-29=":443"; ma=2592000]
+        Cache-Control: [private, max-age=0]
+        Content-Security-Policy-Report-Only: [object-src 'none';base-uri 'self';script-src 'nonce-mWsROelAPf8BvsZ5QAzWEg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp]
+        Content-Type: [text/html; charset=ISO-8859-1]
+        Date: [Thu, 13 Jun 2024 20:08:37 GMT]
+        Expires: [-1]
+        P3p: [CP="This is not a P3P policy! See g.co/p3phelp for more info."]
+        Server: [gws]
+        Set-Cookie: [
+            AEC=AQTF6Hz40pxZbm-6wGqTYkHqcP4t2KQnR-f6HvsH65XPwNKkcl3gTQ6pJYU; 
+            expires=Tue, 10-Dec-2024 20:08:37 GMT; 
+            path=/; 
+            domain=.google.com; 
+            Secure; 
+            HttpOnly; 
+            SameSite=lax 
+            NID=514=R-zqLZHSmQRM42f6fX8dpWUmR-0CN_JMaDbFkbPjmwaLnXwqAR0aPzHT5B_MbBd_Of8vkIf4rqmkeCYRPXaxDzej2J3UywBF3p2Uz9UEIA-WP9eU_qbbapjY7u2pY4sZJede29HHKezFU0k697WLDkO_4CaSjtC4OwurcIwkhkI; 
+            expires=Fri, 13-Dec-2024 20:08:37 GMT; 
+            path=/; 
+            domain=.google.com; 
+            HttpOnly
+        ]
+        X-Frame-Options: [SAMEORIGIN]
+        X-Xss-Protection: [0]
+    ]
+    ContentLength: 0
+    TransferEncoding: []
+    Close: false
+    Uncompressed: true
+    Trailer: map[]
+    Request: 0xc0001baa20
+    TLS: 0xc0001ae420
+}
